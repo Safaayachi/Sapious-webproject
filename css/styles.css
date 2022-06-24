@@ -172,6 +172,8 @@
   grid-template-columns: 55fr 45fr;
   background-color: #edf9ff;
   align-items: center;
+  width: 100%;
+  
 }
 
 .testimonials-container {
@@ -226,4 +228,321 @@
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+/* *****************  pricing section **************** */
+/* ***************************************** */
+
+.price-section{
+  padding: 10rem;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+}
+.price-cards{
+  display:flex;
+  justify-content:space-between;
+  
+}
+.front-card{
+  background-color: white;
+  height:500px;
+  width:400px;
+  border-style: solid;
+  border-color:#edf9ff ;
+  margin-right: 5%;
+  border-radius: 5px;
+  border-width: 1.5px;
+}
+.fullstack-card h4{
+  color:#07a3e9;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top:20px;  
+}
+.fullstack-card p{
+  text-align: center;
+  font-size:14px;
+  margin-bottom: 15px;
+}
+.fullstack-card i{
+  color:#07a3e9;
+  margin-right: 10px;
+}
+.front-card h4{
+  color:#07a3e9;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top:20px; 
+}
+.front-card p{
+  text-align: center;
+  font-size:14px;
+  margin-bottom: 15px;
+}
+.formule {
+  margin-top:30px;
+  
+}
+.start1{
+  border: none; 
+  background-color:#07a3e9;
+  padding:7px 18px;
+  color: white;
+  font-size: 12px;
+  font-weight:550;
+  border-radius: 4px; 
+  margin-right:10px;
+  margin-left:30%;
+  margin-top: 40px;
+  padding:12px 30px;
+ 
+}
+
+.front-card i{
+  color:#07a3e9;
+  margin-right: 10px;
+}
+.price-div{
+display: flex;
+align-items: center;
+
+margin-top: 20px;
+margin-bottom:14px;
+}
+.price-div h6{
+ margin-left: 35%;
+ font-size: medium;
+ font-weight: 400;
+ margin-top: 14px;
+}
+.price-div h1{
+  font-size: 40px;
+  color:#333;
+}
+.fullstack-card{
+background-color: #edf9ff;
+height:500px;
+width:400px;
+border-radius: 5px;
+
+}
+.text-sep{
+  text-align: center;
+  font-size:16px;
+  margin-top: 40px;
+}
+/* ***************** Ways section ************** */
+/* ***************************************** */
+
+
+.ways-images{
+  display:flex;
+  justify-content:space-around;
+  height:150px;
+  width:900px;
+  
+}
+.middle-section{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:250px;
+  width:900px;
+}
+.ways{
+  display:flex;
+  justify-content:center;
+  
+}
+.text-sep{
+  text-align: center;
+  font-size:12px;
+  margin-top: 40px;
+}
+.ms-img{
+  height:60px;
+  width:60px;
+  background-color: #edf9ff;
+  padding:10px;
+  border-radius: 50px;
+  margin-bottom:20px;
+}
+.ways-img p{
+  font-size:12px;
+  line-height:20px ;
+}
+.ways-img h2{
+ color: #333;
+ font-weight:600;
+ margin-bottom: 10px;
+}
+
+
+
+/* *****************  Last section **************** */
+/* ***************************************** */
+
+.last-section{
+
+  margin-bottom: 40px;
+  }
+  .card-container{
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+      padding: 60px 40px;
+      
+  }
+  .contact-card h1{
+  color:#07a3e9 ;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size:30px;
+  }
+  .contact-btn{
+      border: none; 
+      background-color:#07a3e9;
+      padding:10px 70px;
+      color: white;
+      font-size: 12px;
+      font-weight:550;
+      border-radius: 4px;
+  }
+  .contact-card p{
+      font-size: 14px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      }
+  .contact-card{
+      height:350px;
+      width:600px;
+      background-color: #edf9ff;
+      padding: 60px 40px;
+      box-shadow: -20px -20px 40px rgb(255,255,255,-7),20px 20px 40px rgb(0,0,0,-1) ;
+      border-radius: 10px 0px 0px 10px;
+  }
+  
+  .Form-card input{
+      border: none;
+      border-radius: 6px;
+      padding:10px 20px ;
+      margin-right: 20px;
+  }
+  .Second-ligne select{
+      border: none;
+      border-radius: 6px;
+      padding:10px 60.5px ;
+      margin-right: 20px;
+  }
+  .Form-card{
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .first-ligne label{
+  margin-right: 166px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  color: #333;
+  font-weight: 500;
+  }
+  #opt{
+      
+      margin-bottom: 10px;
+      font-size: 11px;
+      color: #333;
+      font-weight: 500;
+      }
+  .first-ligne{
+      display: flex;
+      flex-direction: row;
+    
+  }
+  .first-ligne input{
+      
+      margin-bottom: 25px;
+  }
+  
+  .Second-ligne{
+      display: flex;
+      flex-direction: row;  
+  }
+  .footer-container ul{
+      list-style: none;
+  }
+
+
+
+
+
+/* *****************  footer **************** */
+/* ***************************************** */
+.footer-container ul{
+  list-style: none;
+}
+.footer-container{
+max-width:1170px;
+margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap:wrap;
+}
+.footer{
+  padding: 60px 0;
+
+}
+.footer-col{
+  width: 20%;
+  padding:0 15px;
+  margin-bottom: 100px;
+}
+.footer-col h4 {
+  font-size: 16px;
+  color: #555 ;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top:100px;
+}
+.footer-col p{
+  margin-bottom: 40px; 
+  color:#555;
+  font-size: 20px;
+}
+.footer-col li{
+  margin-bottom: 20px;
+  color:#555;
+  font-size: 12px;
+  text-decoration: none;
+}
+.footer-col li a {
+  margin-bottom: 20px;
+  color:gray;
+  font-size: 13px;
+  text-decoration: none;
+}
+.footer-socials{
+  margin-bottom: 20px;
+   
+}
+.footer-socials a i{
+  margin-right: 19px;
+  color: #808080;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.logo-img-footer{
+  margin-top:100px;
+  width: 80px;
+  margin-bottom: 30px; 
+}
+hr{
+  border-top: 0px solid ;
+}
+.footer-col P{
+  font-size: 12px;
+  color: #555 ;
+  font-weight: 300;
 }
