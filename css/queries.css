@@ -19,6 +19,7 @@
   }
 .body{
   display:block;
+  width:100%
 }
   .heading-primary {
     font-size: 1.2rem;
